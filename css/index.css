@@ -62,6 +62,20 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
 }
 
+header {
+    width: 800px;
+    display: flex;
+    margin: 20px auto 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    width: 650px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 p {
     line-height: 1.4;
 }
@@ -69,6 +83,49 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.banner {
+    margin: 20px 0;
+}
+
+.overview {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.learn-more {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards {
+    width: 370px;
+    height: 450px;
+    padding: 40px 0 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed black;
+    align-items:flex-start;
+}
+
+.cards h2 {
+    margin: 0;
+}
+
+.cards button {
+    background: white;
+    padding: 8px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cards button:hover {
+    background: crimson;
+    color: white;
 }
 
 .top-content {
@@ -112,6 +169,55 @@ p {
     justify-content: center;
 }
 
+#b1.box {
+    background: teal;
+}
+
+#b2.box {
+    background: gold;
+}
+
+
+#b3.box {
+    background: cadetblue;
+}
+
+
+#b4.box {
+    background: coral;
+}
+
+
+#b5.box {
+    background: crimson;
+}
+
+
+#b6.box {
+    background: forestgreen;
+}
+
+
+#b7.box {
+    background: darkorchid;
+}
+
+
+#b8.box {
+    background: hotpink;
+}
+
+
+#b9.box {
+    background: indigo;
+}
+
+
+#b10.box {
+    background: dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +230,10 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.work-together {
+    margin: 30px 0;
 }
 
 footer {
